@@ -1,0 +1,24 @@
+# Entry-Level Cybersecurity Opportunities
+
+# Define a list of company types to target
+$companyTypes = @(
+    "1. Consulting Firms (e.g., Deloitte, PwC, Accenture)",
+    "2. Tech Startups (look for those with strong team culture)",
+    "3. Large Tech Companies (e.g., Google, Microsoft, Cisco)",
+    "4. Financial Services (e.g., JPMorgan Chase, Goldman Sachs)",
+    "5. Government Agencies (e.g., NSA, local IT departments)",
+    "6. Nonprofits and NGOs (community-focused organizations)",
+    "7. Educational Institutions (colleges and universities)"
+)
+
+# Display the list of company types
+Write-Host "Companies to Consider for Entry-Level Cybersecurity Positions:" -ForegroundColor Cyan
+foreach ($company in $companyTypes) {
+    Write-Host $company
+}
+
+# Additional guidance
+Write-Host "`nTips for Researching Companies:" -ForegroundColor Yellow
+Write-Host "1. Check employee reviews on Glassdoor or LinkedIn."
+Write-Host "2. Reach out to current or former employees for insights."
+Write-Host "3. Look for companies with mentorship and training programs."
